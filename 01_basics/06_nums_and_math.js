@@ -30,4 +30,4 @@ console.log((math.random()*10)+1);
 const min=10
 const max=20
 
-math.random() *(max-min+1)
+console.log(math.floor(math.random() *(max-min+1))+min);
